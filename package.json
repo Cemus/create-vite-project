@@ -1,0 +1,13 @@
+{
+  "name": "create-project-cli",
+  "version": "1.0.0",
+  "description": "Un script CLI pour créer un projet Vite simple, sans boilerplate",
+  "author": "Kévin Lionnet",
+  "main": "create-project.js",
+  "bin": {
+    "create-project": "./create-project.js"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}
