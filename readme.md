@@ -24,6 +24,10 @@ cd create-vite-project
 npm install
 ```
 
+```bash
+npm link
+```
+
 ## Utilisation
 
 ```bash
@@ -32,6 +36,20 @@ node create-project <nom-du-projet> [--ts]
 
 ### Exemple
 
+Sans TypeScript :
+
+```bash
+node create-project mon super projet
+```
+
+Avec TypeScript :
+
 ```bash
 node create-project mon super projet --ts
+```
+
+### Désinstaller
+
+```bash
+npm unlink
 ```
