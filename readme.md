@@ -14,7 +14,7 @@ Ce projet est un outil en ligne de commande (CLI) qui permet de créer rapidemen
 ### Cloner le dépôt
 
 ```bash
-git clone https://github.com/ton-utilisateur/create-vite-project.git
+git clone https://github.com/Cemus/create-vite-project
 cd create-vite-project
 ```
 
