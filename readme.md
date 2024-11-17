@@ -24,6 +24,8 @@ cd create-vite-project
 npm install
 ```
 
+### Créer un lien symbolique pour l'utiliser depuis n'importe quel dossier
+
 ```bash
 npm link
 ```
@@ -31,7 +33,7 @@ npm link
 ## Utilisation
 
 ```bash
-node create-project <nom-du-projet> [--ts]
+create-project <nom-du-projet> [--ts]
 ```
 
 ### Exemple
@@ -39,16 +41,18 @@ node create-project <nom-du-projet> [--ts]
 Sans TypeScript :
 
 ```bash
-node create-project mon super projet
+create-project mon super projet
 ```
 
 Avec TypeScript :
 
 ```bash
-node create-project mon super projet --ts
+create-project mon super projet --ts
 ```
 
-### Désinstaller
+## Désinstaller
+
+### Retirer le lien symbolique
 
 ```bash
 npm unlink
