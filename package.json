@@ -1,6 +1,6 @@
 {
   "name": "create-vite-project-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A CLI script to create a simple Vite project, without boilerplate",
   "author": "Kévin Lionnet",
   "main": "create-vite-project-cli.js",
