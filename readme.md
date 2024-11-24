@@ -1,59 +1,46 @@
 # Create Vite Project CLI
 
-Ce projet est un outil en ligne de commande (CLI) qui permet de créer rapidement un projet Vite avec ou sans TypeScript. Il génère un projet de base avec une structure de fichiers prête à l'emploi pour commencer le développement avec Vite sans le template par défaut guère utile pour de petits projets.
+This project is a Command Line Interface (CLI) tool that quickly creates a Vite project with or without TypeScript. It generates a basic project with a ready-to-use file structure, allowing you to start development with Vite without the default template, which can be unnecessary for smaller projects.
 
-## Fonctionnalités
+## Features
 
-- Crée un projet Vite avec une configuration minimale.
-- Option pour initialiser un projet avec TypeScript.
-- Installation automatique des dépendances nécessaires.
-- Structure de projet prête à l'emploi pour démarrer rapidement le développement.
+- Creates a Vite project with a minimal configuration.
+- Option to initialize a project with TypeScript.
+- Automatically installs necessary dependencies.
+- Provides a ready-to-use project structure to kickstart development quickly.
 
 ## Installation
 
-### Cloner le dépôt
+### Install globally via npm
 
 ```bash
-git clone https://github.com/Cemus/create-vite-project
-cd create-vite-project
+npm install -g create-vite-project-cli
 ```
 
-### Installer les dépendances du projet :
+## Usage
 
 ```bash
-npm install
+create-project <project-name> [--ts]
 ```
 
-### Créer un lien symbolique pour l'utiliser depuis n'importe quel dossier
+### Example
+
+Without TypeScript:
 
 ```bash
-npm link
+create-project my awesome project
 ```
 
-## Utilisation
+With TypeScript:
 
 ```bash
-create-project <nom-du-projet> [--ts]
+create-project my awesome project --ts
 ```
 
-### Exemple
+## Uninstallation
 
-Sans TypeScript :
-
-```bash
-create-project mon super projet
-```
-
-Avec TypeScript :
+### Remove the global installation
 
 ```bash
-create-project mon super projet --ts
-```
-
-## Désinstaller
-
-### Retirer le lien symbolique
-
-```bash
-npm unlink
+npm uninstall -g create-vite-project-cli
 ```
