@@ -20,7 +20,7 @@ npm install -g create-vite-project-cli
 ## Usage
 
 ```bash
-create-project <project-name> [--ts]
+npx create-project <project-name> [--ts]
 ```
 
 ### Example
@@ -28,13 +28,13 @@ create-project <project-name> [--ts]
 Without TypeScript:
 
 ```bash
-create-project my awesome project
+npx create-project my awesome project
 ```
 
 With TypeScript:
 
 ```bash
-create-project my awesome project --ts
+npx create-project my awesome project --ts
 ```
 
 ## Uninstallation
