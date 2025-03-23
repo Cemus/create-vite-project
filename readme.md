@@ -57,3 +57,15 @@ npx create-project my awesome project --ts
 ```bash
 npm uninstall -g create-vite-project-cli
 ```
+
+[contributors-shield]: https://img.shields.io/github/contributors/Cemus/create-vite-project.svg?style=for-the-badge
+[contributors-url]: https://github.com/Cemus/create-vite-project/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Cemus/create-vite-project.svg?style=for-the-badge
+[forks-url]: https://github.com/Cemus/create-vite-project/network/members
+[stars-shield]: https://img.shields.io/github/stars/Cemus/create-vite-project.svg?style=for-the-badge
+[stars-url]: https://github.com/Cemus/create-vite-project/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Cemus/create-vite-project.svg?style=for-the-badge
+[issues-url]: https://github.com/Cemus/create-vite-project/issues
+[license-shield]: https://img.shields.io/github/license/Cemus/create-vite-project?style=for-the-badge
+[license-url]: https://github.com/Cemus/create-vite-project/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
