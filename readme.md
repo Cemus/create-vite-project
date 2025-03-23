@@ -1,3 +1,16 @@
+
+<div align="center">
+
+[![Contributors][contributors-shield]](https://github.com/Cemus/create-vite-project/graphs/contributors)
+[![Forks][forks-shield]](https://github.com/Cemus/create-vite-project/network/members)
+[![Stargazers][stars-shield]](https://github.com/Cemus/create-vite-project/stargazers)
+[![Issues][issues-shield]](https://github.com/Cemus/create-vite-project/issues)
+[![License][license-shield]](https://github.com/Cemus/create-vite-project/blob/main/LICENSE)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/kevin-lionnet/)
+
+</div>
+
+
 # Create Vite Project CLI
 
 This project is a Command Line Interface (CLI) tool that quickly creates a Vite project with or without TypeScript. It generates a basic project with a ready-to-use file structure, allowing you to start development with Vite without the default template, which can be unnecessary for smaller projects.
